@@ -1,0 +1,105 @@
+.item_wrapper{
+    height: 460px;
+    width: 280px;
+    margin-left: 35px;
+    margin-bottom: 65px;
+    
+    .img_wrapper{
+        width: 259.12px;
+        height: 260px;
+        img{
+            object-fit: fill;
+        }
+    }
+    .item_footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 17px;
+        .price{
+            font-weight: 700;
+            font-size: 22px;
+            letter-spacing: 0.015em;
+            color: #000000;
+        }
+        button{
+            width: 140px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid #EB5A1E;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #EB5A1E;
+            transition: all 0.1s ease-in-out;
+            span{
+                display: inline-block;
+                background-color: #EB5A1E;
+                width: 22px;
+                height: 22px;
+                border-radius: 50%;
+                color: #ffff;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 22px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .item_name{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center; 
+        color: #000000;
+        margin-top: 11px;
+    }
+    .settings_main{
+        display: flex;
+        justify-content: center;
+        button{
+            width: 131.88px;
+            background-color: rgba(255, 255, 255, 0);
+            border: none;
+            border-radius: 5px;
+            height: 32px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+            color: #2C2C2C;
+        }
+        
+    }
+    .item_settings{
+        margin-top: 22px;
+        background: #F3F3F3;
+        border-radius: 10px;
+        padding: 7px 0;
+       .settings_size{
+            display: flex;
+            justify-content: center;
+            button{
+                width: 86px;
+                margin: 0 5px;
+                margin-top: 7px;
+                background-color: rgba(255, 255, 255, 0);
+                border: none;
+                border-radius: 5px;
+                height: 32px;
+                font-weight: 700;
+                font-size: 14px;
+                color: #2C2C2C; 
+            }
+           
+
+       }
+    }
+}
+
+
+
+.active{
+    background-color: #FFFFFF;
+}
