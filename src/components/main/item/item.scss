@@ -22,30 +22,50 @@
             letter-spacing: 0.015em;
             color: #000000;
         }
-        button{
-            width: 140px;
-            height: 40px;
-            background: #FFFFFF;
-            border: 1px solid #EB5A1E;
-            border-radius: 30px;
+        
+    }
+    
+
+    .btn{
+        width: 140px;
+        height: 40px;
+        background: #ffffff03;
+        border: 1px solid #EB5A1E;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #EB5A1E;
+        transition: all 0.1s ease-in-out;
+        
+        span{
+            display: inline-block;
+            background-color: #EB5A1E;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            color: #ffff;
             font-weight: 700;
-            font-size: 16px;
-            line-height: 19px;
-            color: #EB5A1E;
-            transition: all 0.1s ease-in-out;
-            span{
-                display: inline-block;
-                background-color: #EB5A1E;
-                width: 22px;
-                height: 22px;
-                border-radius: 50%;
-                color: #ffff;
-                font-weight: 700;
-                font-size: 13px;
-                line-height: 22px;
-                margin-left: 5px;
-            }
+            font-size: 13px;
+            line-height: 22px;
+            margin-left: 5px;
         }
+    }
+    .sizebtn{
+        width: 86px;
+        margin: 0 5px;
+        margin-top: 7px;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        border-radius: 5px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #2C2C2C; 
+        transition: all .2s ease;
+    }
+    .active{
+        background-color: #ffffff;
     }
 
     .item_name{
@@ -61,7 +81,6 @@
         justify-content: center;
         button{
             width: 131.88px;
-            background-color: rgba(255, 255, 255, 0);
             border: none;
             border-radius: 5px;
             height: 32px;
@@ -80,26 +99,14 @@
        .settings_size{
             display: flex;
             justify-content: center;
-            button{
-                width: 86px;
-                margin: 0 5px;
-                margin-top: 7px;
-                background-color: rgba(255, 255, 255, 0);
-                border: none;
-                border-radius: 5px;
-                height: 32px;
-                font-weight: 700;
-                font-size: 14px;
-                color: #2C2C2C; 
-            }
+           
            
 
        }
     }
+
+    
 }
 
 
 
-.active{
-    background-color: #FFFFFF;
-}
